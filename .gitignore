@@ -1,0 +1,39 @@
+# original .gitignore from fabric
+# new from gypsi
+
+# gradle
+
+.gradle/
+build/
+out/
+classes/
+
+# eclipse
+
+*.launch
+
+# idea
+
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# vscode
+
+.settings/
+.vscode/
+bin/
+.classpath
+.project
+
+# macos
+
+*.DS_Store
+
+# mc source and run
+run/
+
+src/main/java/com/mojang/*
+src/main/java/mcp/*
+src/main/java/net/minecraft/*
